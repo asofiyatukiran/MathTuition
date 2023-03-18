@@ -45,7 +45,8 @@ public class Center {
     public void displayTeachers() {
         for (int i=0; i<teachers.size(); i++) {
             Teacher teacher = teachers.get(i);
-            System.out.println(teacher.name);
+//            System.out.println(teacher.name);
+            System.out.println("Sucessful");
         }
 
     }

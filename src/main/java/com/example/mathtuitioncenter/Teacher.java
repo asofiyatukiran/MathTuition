@@ -1,7 +1,6 @@
 package com.example.mathtuitioncenter;
 
-// createed by team in Bangalore
-public class Teacher {
+public abstract class Teacher {
     // data
     private String name;
     private String ic;
@@ -56,7 +55,12 @@ public class Teacher {
 
     public static void main(String args[]) {
         // why the above is not good
-        Teacher t = new Teacher();
+        Teacher t = new Teacher() {
+            @Override
+            public float calcPay() {
+                return 0;
+            }
+        };
         System.out.println(t.calcPay());
 
     }
