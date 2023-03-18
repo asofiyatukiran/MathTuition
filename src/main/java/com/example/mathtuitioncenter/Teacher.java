@@ -1,7 +1,7 @@
 package com.example.mathtuitioncenter;
 
 public abstract class Teacher {
-    // data
+
     private String name;
     private String ic;
     private String address;
